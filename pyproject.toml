@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "khomputer"
+authors = [
+    {name="Panyut Sriwirote", email="panyutsriwirote@gmail.com"},
+]
+description = "The Khomputer programming language"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/panyutsriwirote/khomputer"
+Issues = "https://github.com/panyutsriwirote/khomputer/issues"
+
+[project.scripts]
+khomputer = "khomputer.cli:main"
+
+[tool.setuptools.dynamic]
+version = {attr = "khomputer.cli.__VERSION__"}
