@@ -16,6 +16,9 @@ classifiers = [
     "Operating System :: OS Independent",
 ]
 dynamic = ["version"]
+dependencies = [
+    "pythaidate"
+]
 
 [project.urls]
 Homepage = "https://github.com/panyutsriwirote/khomputer"

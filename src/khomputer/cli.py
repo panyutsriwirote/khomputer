@@ -18,7 +18,6 @@ def main():
     interpreter_parser.add_argument("program")
     # Main program
     args = parser.parse_args()
-    print(args)
     if args.mode == "thai2khom":
         transpile(input_dir=args.input, output_dir=args.output)
     else:
