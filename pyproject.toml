@@ -24,7 +24,7 @@ dependencies = [
 [project.urls]
 Repository = "https://github.com/panyutsriwirote/khomputer"
 Issues = "https://github.com/panyutsriwirote/khomputer/issues"
-Documentation = "https://readthedocs.org"
+Documentation = "https://panyutsriwirote.github.io/khomputer"
 
 [project.scripts]
 khomputer = "khomputer.cli:main"
