@@ -5,10 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "khomputer"
 authors = [
-    {name="Panyut Sriwirote", email="panyutsriwirote@gmail.com"},
+    {name="Panyut Sriwirote", email="panyutsriwirote@gmail.com"}
 ]
 description = "The Khomputer programming language"
 readme = "README.md"
+license = {file = "LICENSE"}
 requires-python = ">=3.8"
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -21,8 +22,9 @@ dependencies = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/panyutsriwirote/khomputer"
+Repository = "https://github.com/panyutsriwirote/khomputer"
 Issues = "https://github.com/panyutsriwirote/khomputer/issues"
+Documentation = "https://readthedocs.org"
 
 [project.scripts]
 khomputer = "khomputer.cli:main"

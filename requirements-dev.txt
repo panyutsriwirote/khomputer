@@ -1,0 +1,6 @@
+pythaidate
+build
+twine
+ipykernel
+tox
+mkdocs-material

@@ -1,0 +1,4 @@
+site_name: Khomputer documentation
+repo_url: https://github.com/panyutsriwirote/khomputer
+theme:
+  name: readthedocs
